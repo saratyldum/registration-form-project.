@@ -21,13 +21,13 @@
 				<section>	
 					<h2>Personinformasjon</h2>
 					<label for="name"><span class="mandatory-star">*</span> Navn:</label><br>
-					<input type="text" name="Name" id="name" placeholder="Skriv inn svaret"><br>
+					<input type="text" name="Name" id="name" placeholder="Skriv inn svaret" required="required"><br>
 
 					<label for="phone"><span class="mandatory-star">*</span> Telefonnummer</label><br>
-					<input type="text" name="phone" id="phone" placeholder="Skriv inn svaret"> <br>
+					<input type="text" name="phone" id="phone" placeholder="Skriv inn svaret" required="required"> <br>
 
 					<label for="email"><span class="mandatory-star">*</span> E-postadresse:</label><br>
-					<input type="text" name="email" id="email" placeholder="Skriv inn svaret"> <br>
+					<input type="text" name="email" id="email" placeholder="Skriv inn svaret" required="required"> <br>
 				</section>
 
 				<section>
@@ -46,21 +46,21 @@
 
 					<div>
 						<label for="requested-position"><span class="mandatory-star">*</span>Ønsket arbeidsområde</label><br>
-						<select name="requested-position" id="requested-position-1">
+						<select name="requested-position" id="requested-position-1" required="required">
 							<option value="priority-1"><strong><span class="mandatory-star">*</span> Velg 1.prioritet</strong></option>
 							<option value="X">X</option>
 							<option value="Y">Y</option>
 							<option value="Z">Z</option>
 						</select> <br>
 			
-						<select name="requested-position" id="requested-position-2">
+						<select name="requested-position" id="requested-position-2" required="required">
 							<option value="priority-2"><strong><span class="mandatory-star">*</span> Velg 2.prioritet</strong></option>
 							<option value="X">X</option>
 							<option value="Y">Y</option>
 							<option value="Z">Z</option>
 						</select> <br>
 			
-						<select name="requested-position" id="requested-position-3">
+						<select name="requested-position" id="requested-position-3" required="required">
 							<option value="priority-3"><strong><span class="mandatory-star">*</span> Velg 3.prioritet</strong></option>
 							<option value="X">X</option>
 							<option value="Y">Y</option>
@@ -69,10 +69,10 @@
 					</div>
 
 					<label for="motivation"><span class="mandatory-star">*</span> Beskriv din motivasjon for å være frivillig</label><br>
-					<input type="text" name="motivation" id="motivation" placeholder="Skriv inn svaret"> <br>
+					<input type="text" name="motivation" id="motivation" placeholder="Skriv inn svaret" required="required"> <br>
 			
 					<label for="additional-info"><span class="mandatory-star">*</span> Noe annet vi bør vite om deg?</label><br>
-					<input type="text" name="additional-info" id="additional-info" placeholder="Skriv inn svaret"> <br>
+					<input type="text" name="additional-info" id="additional-info" placeholder="Skriv inn svaret" required="required"> <br>
 			
 					<label for="get-contacted">Hvordan ønsker du bli kontaktet av gruppeleder</label><br>
 					<input type="checkbox" name="get-contacted" id="by-phone">
@@ -81,8 +81,9 @@
 					<label for="by-mail">Gruppeleder kan sende meg mail</label><br>
 					<input type="checkbox" name="get-contacted" id="by-sms">
 					<label for="by-sms">Gruppeleder kan sende meg melding</label><br>
-			
 				</section>
+
+				<button type="submit">Send søknad</button>
 
 
 			</div>
