@@ -93,3 +93,14 @@ a:hover {
 	padding: 50px;
 	line-height: 50px;
 }
+
+.text {
+	padding: 2px;
+	font-size: 0.9em;
+}
+
+select {
+	font-size: 0.9em;
+	padding: 2px;
+}
+
